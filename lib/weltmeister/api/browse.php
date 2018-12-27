@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once( 'config.php' );
 
 $dir = WM_Config::$fileRoot . str_replace( '..', '', $_GET['dir'] );
@@ -8,7 +8,7 @@ if( $dir{strlen($dir)-1} != '/' ) {
 
 $find = '*.*';
 switch( $_GET['type'] ) {
-	case 'images': 
+	case 'images':
 		$find = '*.{png,gif,jpg,jpeg}';
 		break;
 	case 'scripts':
@@ -31,7 +31,7 @@ foreach( $dirs as $i => $d ) {
 }
 
 $parent = substr($_GET['dir'], 0, strrpos($_GET['dir'], '/'));
-echo json_encode( array( 
+echo json_encode( array(
 	'parent' => (empty($_GET['dir']) ? false : $parent),
 	'dirs' => $dirs,
 	'files' => $files

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 class WM_Config {
 	public static $fileRoot = '../../../';

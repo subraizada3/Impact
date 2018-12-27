@@ -107,8 +107,8 @@
 
 .ig_debug_label_mark {
 	display: inline-block;
-	width: 10px; 
-	height: 10px; 
+	width: 10px;
+	height: 10px;
 	margin-right: 4px;
 	-webkit-transition: 0.1s linear;
 	-moz-transition: 0.1s linear;
@@ -116,10 +116,10 @@
 
 .ig_debug_legend_color {
 	display: inline-block;
-	width: 6px; 
-	height: 10px; 
-	margin-right: 4px; 
-	margin-left: 16px; 
+	width: 6px;
+	height: 10px;
+	margin-right: 4px;
+	margin-left: 16px;
 }
 
 .ig_debug_legend_number {

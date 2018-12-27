@@ -1,4 +1,4 @@
-<?php 
+<?php
 require_once( 'config.php' );
 
 $globs = is_array($_GET['glob']) ? $_GET['glob'] : array($_GET['glob']);

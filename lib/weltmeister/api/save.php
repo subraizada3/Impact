@@ -1,11 +1,11 @@
-<?php 
+<?php
 require_once( 'config.php' );
 
 $result = array('error' => 0);
 
 if( !empty($_POST['path']) && !empty($_POST['data']) ) {
 	$path = WM_Config::$fileRoot . str_replace( '..', '', $_POST['path'] );
-	
+
 	if( preg_match('/\.js$/', $path) ) {
 		$success = @file_put_contents( $path, $_POST['data'] );
 		if( $success === false ) {
