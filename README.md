@@ -8,3 +8,4 @@ Impact is published under the [MIT Open Source License](http://opensource.org/li
 
 # Fork changes
 * dos2unix and trim trailing whitespace from all files
+* add `.gitignore` for Vim
