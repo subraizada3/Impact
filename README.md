@@ -8,8 +8,9 @@ Impact is published under the [MIT Open Source License](http://opensource.org/li
 
 # Fork changes
 * dos2unix and trim trailing whitespace from all files
-* Add `.gitignore` for Vim
-* Add python-impact webserver from [https://github.com/amadeus/python-impact/](https://github.com/amadeus/python-impact/)
-  * Update first line from `#!/usr/bin/env python` to `#!/usr/bin/env python2`
-* Update jsmin.php to latest version (used to bake project)
+* Added `.gitignore` for Vim
+* Added python-impact webserver from [https://github.com/amadeus/python-impact/](https://github.com/amadeus/python-impact/)
+  * Updated first line from `#!/usr/bin/env python` to `#!/usr/bin/env python2`
+* Updated jsmin.php to latest version (used to bake project)
 * Made minor code changes for simplicity and ease of use
+* Added script to make a `.tar` file with the empty Impact project template
