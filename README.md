@@ -14,3 +14,5 @@ Impact is published under the [MIT Open Source License](http://opensource.org/li
 * Updated jsmin.php to latest version (used to bake project)
 * Made minor code changes for simplicity and ease of use
 * Added script to make a `.tar` file with the empty Impact project template
+
+Note: baking the *empty* project provided here will fail unless you remove the trailing comma at `lib/game/impact.js:3`.
