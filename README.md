@@ -8,4 +8,6 @@ Impact is published under the [MIT Open Source License](http://opensource.org/li
 
 # Fork changes
 * dos2unix and trim trailing whitespace from all files
-* add `.gitignore` for Vim
+* Add `.gitignore` for Vim
+* Add python-impact webserver from [https://github.com/amadeus/python-impact/](https://github.com/amadeus/python-impact/)
+  * Update first line from `#!/usr/bin/env python` to `#!/usr/bin/env python2`
