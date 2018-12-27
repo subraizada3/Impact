@@ -11,3 +11,4 @@ Impact is published under the [MIT Open Source License](http://opensource.org/li
 * Add `.gitignore` for Vim
 * Add python-impact webserver from [https://github.com/amadeus/python-impact/](https://github.com/amadeus/python-impact/)
   * Update first line from `#!/usr/bin/env python` to `#!/usr/bin/env python2`
+* Update jsmin.php to latest version (used to bake project)
